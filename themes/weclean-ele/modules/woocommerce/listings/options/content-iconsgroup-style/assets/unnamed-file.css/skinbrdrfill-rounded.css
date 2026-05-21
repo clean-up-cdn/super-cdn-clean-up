@@ -1,0 +1,59 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Content IconsGroup Style */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons .wc_btn_inline { margin: 2px; }
+
+
+    .woocommerce ul.products.product-content-iconsgroup-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-icons a,
+    .woocommerce ul.products.product-content-iconsgroup-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .woocommerce ul.products.product-content-iconsgroup-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-icons button,
+    .woocommerce ul.products.product-content-iconsgroup-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .woocommerce ul.products.product-content-iconsgroup-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-icons .button,
+
+    .woocommerce ul.products.product-content-iconsgroup-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-icons .blockUI.blockOverlay { -webkit-border-radius: 50%; border-radius: 50%; }
+
+
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons .button { background-color: transparent !important; border: 1px solid currentColor; }
+
+
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a:hover,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a.button:hover,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button:hover,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button.button:hover,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons .button:hover { color: rgba(var(--wdtHeadAltColorRgb),0.75); }
+
+
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons .button { color: rgba(var(--wdtAccentTxtColorRgb),0.85); }
+
+
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a.button:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button.button:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons .button:hover { color: rgba(var(--wdtAccentTxtColorRgb),0.8); }
+
+/* #endregion - Content IconsGroup Style */
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+	/* Primary */
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-icons .button { color: var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
