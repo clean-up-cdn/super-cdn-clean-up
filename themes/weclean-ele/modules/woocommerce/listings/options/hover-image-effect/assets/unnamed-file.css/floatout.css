@@ -1,0 +1,11 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-floatout li.product:hover .product-thumb,
+    .woocommerce ul.products.product-hover-image-floatout li.product:hover .product-details { -webkit-transform: translateY(-10px); transform: translateY(-10px); }
+
+    .woocommerce ul.products.product-hover-image-floatout.swiper-wrapper { margin-top: 10px; }
+
+/* #endregion - Product Image Hover Effects */
