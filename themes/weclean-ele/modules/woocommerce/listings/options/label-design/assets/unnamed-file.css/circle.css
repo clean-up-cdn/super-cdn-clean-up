@@ -1,0 +1,22 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing Labels */
+/*--------------------------------------------------------------*/    
+    
+    .woocommerce ul.products.product-label-circle li.product .product-labels { direction: rtl; right: 10px; top: 10px; }
+
+    .woocommerce ul.products.product-label-circle li.product .product-labels > span { display: inline-block; font-weight: normal; height: 60px; line-height: 1; margin: 1px; padding: 0; min-height: 60px; min-width: 60px; overflow: hidden; vertical-align: middle; width: 60px; border-radius: 50%; }
+
+    .woocommerce ul.products.product-label-circle li.product .product-labels > span.onsale { font-size: var(--wdtFontSize_Base); text-transform: capitalize; }
+
+    /* .woocommerce ul.products.product-label-circle li.product .product-labels .out-of-stock { display: flex; align-items: center; font-size: 10px; line-height: normal; } */
+
+    .woocommerce ul.products.product-label-circle li.product .product-labels span span { display: inline-flex; justify-content: center; align-items: center; height: 100%; font-weight: var(--wdtFontWeight_Ext); padding: 0 10px; font-size: var(--wdtFontSize_Base); }
+
+    .woocommerce ul.products.product-label-circle[class*="thumb-alignment-top"] li.product .product-labels > span ~ span { margin: 0 -1px 0 0; -webkit-transform: translateX(100%); transform: translateX(100%); }
+    
+    .woocommerce ul.products.product-label-circle[class*="thumb-alignment-top"] li.product .product-labels > span:nth-child(1):nth-last-child(2) { opacity: 0; visibility: hidden; -webkit-transform: scale(0); transform: scale(0); -webkit-transition: opacity .5s ease-in-out, transform .5s ease-in-out; transition: opacity .5s ease-in-out, transform .5s ease-in-out; }
+
+    .woocommerce ul.products.product-label-circle[class*="thumb-alignment-top"] li.product:hover .product-labels > span:nth-child(1):nth-last-child(2) { opacity: 1; visibility: visible; -webkit-transform: scale(1); transform: scale(1); }
+
+/* #endregion - Product Listing Labels */    
