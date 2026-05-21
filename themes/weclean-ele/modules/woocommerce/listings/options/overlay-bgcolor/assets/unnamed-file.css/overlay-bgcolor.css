@@ -1,0 +1,9 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Overlay BG Color */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-thumb .image .product-thumb-overlay { opacity: 0; }
+    .woocommerce ul.products li.product:hover .product-thumb .image .product-thumb-overlay { opacity: 1; }
+
+/* #endregion - Product Listing - Overlay BG Color */
