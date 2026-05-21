@@ -1,0 +1,36 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing Labels */
+/*--------------------------------------------------------------*/    
+        
+    .woocommerce ul.products.product-label-angular li.product .product-labels { -webkit-transform: rotate(42deg); transform: rotate(42deg); }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels .onsale, .woocommerce ul.products.product-label-angular li.product .product-labels .out-of-stock { min-height: auto; min-width: auto; padding: 0; }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels .onsale span, .woocommerce ul.products.product-label-angular li.product .product-labels .out-of-stock span { -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels { height: 30px; line-height: 30px; right: -10px; top: 5px; width: 60px; }
+
+    .woocommerce ul.products.product-label-angular li.product.sale .product-labels { background-color: #77a464; }
+    .woocommerce ul.products.product-label-angular li.product.outofstock .product-labels { background-color: #9f2124; }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels:before { background-color: inherit; content: ""; height: 200%; position: absolute; bottom: -5px; left: 50%; width: 100%; z-index: -1; -webkit-transform: translateX(-50%) scaleX(2); transform: translateX(-50%) scaleX(2); }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels > span { background: none !important; line-height: inherit; position: absolute; left: 0; right: 0; text-align: center; width: 100%; -webkit-transition: opacity .5s ease-in-out, -webkit-transform .5s ease-in-out; transition: opacity .5s ease-in-out, transform .5s ease-in-out; }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels > span:nth-child(1):nth-last-child(1),
+    .woocommerce ul.products.product-label-angular li.product .product-labels > span:nth-child(1):nth-last-child(2) { top: 0; -webkit-transform: translateY(0); transform: translateY(0); }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels > span:nth-child(1):nth-last-child(2) { opacity: 0; visibility: hidden; }
+
+    .woocommerce ul.products.product-label-angular li.product:hover .product-labels > span:nth-child(1):nth-last-child(2) { opacity: 1; top: 50%; visibility: visible; -webkit-transform: translateY(-50%);  transform: translateY(-50%); }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels > span:nth-child(2):nth-last-child(1) { top: 50%; transform: translateY(-50%); }
+    .woocommerce ul.products.product-label-angular li.product:hover .product-labels > span:nth-child(2):nth-last-child(1) { top: 50%; opacity: 0; visibility: hidden; -webkit-transform: translateY(0); transform: translateY(0); }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels .onsale { font-size: 10px; }
+    .woocommerce ul.products.product-label-angular li.product .product-labels .out-of-stock { font-size: 7px; margin-top: 3px; margin-right: 3px; }
+
+    .woocommerce ul.products.product-label-angular li.product .product-labels .onsale, .woocommerce ul.products.product-label-angular li.product .product-labels .out-of-stock { border-radius: 0; }
+
+/* #endregion - Product Listing Labels */    
