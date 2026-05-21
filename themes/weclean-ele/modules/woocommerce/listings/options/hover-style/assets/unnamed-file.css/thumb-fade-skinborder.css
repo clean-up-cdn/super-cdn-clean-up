@@ -1,0 +1,25 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Hover Styles */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-thumb-fade-skinborder li.product .product-thumb .image:before { border:1px solid transparent; bottom: 0; left: 0; margin: auto; right: 0; top: 0; z-index: 1; }
+
+    .woocommerce ul.products.product-hover-thumb-fade-skinborder li.product .product-thumb .image:before { margin: 1px; z-index: 100; }
+
+
+    .woocommerce ul.products.product-style-bordered.product-hover-thumb-fade-skinborder li.product .product-thumb .image:before { bottom: -1px; left: -1px; right: -1px; top: -1px; }
+
+    .woocommerce ul.products.product-style-bordered.product-hover-thumb-fade-skinborder li.product .product-thumb .image:before { margin: 2px; }
+
+/* #endregion - Product Listing - Hover Styles */
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+    /* Primary */
+    .woocommerce ul.products.product-hover-thumb-fade-skinborder li.product:hover .product-thumb .image:before { border-color: var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
