@@ -1,0 +1,31 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+	/* Secondary Image Hover Effect - Slide*
+	-------------------------------------- */
+	.woocommerce ul[class*="product-hover-secimage-slide"].product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-slide"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image img {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0); 
+	}
+
+	/* Secondary Image Hover Effect - SlideLeft
+	----------------------------------------- */
+	.woocommerce ul.products.product-hover-secimage-slideleft.product-thumb-bg-image li.product.product-with-secondary-image:not(:hover) .product-thumb .image .secondary-image,
+	.woocommerce ul.products.product-hover-secimage-slideleft:not(.product-thumb-bg-image) li.product.product-with-secondary-image:not(:hover) .product-thumb .image .secondary-image img {
+		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		-ms-transform: translateX(100%);
+		-o-transform: translateX(100%);
+		transform: translateX(100%); 
+	}
+
+/* #endregion - Secondary Image Hover Effects */        		
