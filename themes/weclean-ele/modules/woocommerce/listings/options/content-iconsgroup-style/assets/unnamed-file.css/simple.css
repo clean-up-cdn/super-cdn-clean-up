@@ -1,0 +1,28 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Content IconsGroup Style */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons a,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons button,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons .button { background: none !important; color: var(--wdtBodyTxtColor); -webkit-border-radius: 50%; border-radius: 50%; }
+
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons { background-color: rgba(var(--wdtHeadAltColorRgb),0.015); -webkit-box-shadow: 1px 1px 1px rgba(var(--wdtHeadAltColorRgb),0.15); box-shadow: 1px 1px 1px rgba(var(--wdtHeadAltColorRgb),0.15); }
+
+/* #endregion - Content IconsGroup Style */
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+	/* Primary */
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons a:hover,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons a.button:hover,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons button:hover,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons button.button:hover,
+    .woocommerce ul.products.product-content-iconsgroup-style-simple li.product .product-details .product-buttons-wrapper.product-icons .button:hover { color: var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
