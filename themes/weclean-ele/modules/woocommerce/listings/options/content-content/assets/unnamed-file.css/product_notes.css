@@ -1,0 +1,15 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content Notes */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-details .product-content-notes,
+    .woocommerce ul.products li.product .product-details .product-content-notes ul li i { color: var(--wdtBodyTxtColor); font-size: 0.9em; }
+
+    .woocommerce ul.products li.product .product-details .product-content-notes > p:last-child,
+    .woocommerce ul.products li.product .product-details .product-content-notes ul { margin-bottom: 0; }
+
+    .woocommerce ul.products li.product .product-details .product-content-notes p i,
+    .woocommerce ul.products li.product .product-details .product-content-notes ul li i { margin-right: 5px; }
+
+/* #endregion - Product Content Notes */
