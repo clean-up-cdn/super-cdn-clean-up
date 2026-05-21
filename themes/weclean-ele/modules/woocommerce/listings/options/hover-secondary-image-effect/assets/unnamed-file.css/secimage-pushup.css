@@ -1,0 +1,34 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+	/* Secondary Image Hover Effect - Push*
+	------------------------------------- */
+	.woocommerce ul[class*="product-hover-secimage-push"].product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-push"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image img {
+		-webkit-transform: translate(0, 0);
+		transform: translate(0, 0); 
+	}
+
+	/* Secondary Image Hover Effect - PushUp
+	-------------------------------------- */
+	.woocommerce ul.products.product-hover-secimage-pushup.product-thumb-bg-image li.product.product-with-secondary-image:not(:hover) .product-thumb .image .secondary-image,
+	.woocommerce ul.products.product-hover-secimage-pushup:not(.product-thumb-bg-image) li.product.product-with-secondary-image:not(:hover) .product-thumb .image .secondary-image img {
+		-webkit-transform: translateY(100%);
+		transform: translateY(100%); 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-pushup.product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .primary-image,
+	.woocommerce ul.products.product-hover-secimage-pushup:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .primary-image img {
+		-webkit-transform: translateY(-100%);
+		transform: translateY(-100%); 
+	}
+
+/* #endregion - Secondary Image Hover Effects */        		
