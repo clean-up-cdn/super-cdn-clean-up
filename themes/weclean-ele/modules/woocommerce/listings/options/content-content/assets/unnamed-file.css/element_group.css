@@ -1,0 +1,35 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content - Element Group */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper { clear: both; display: block; float: none; margin-left: -5px; margin-right: -5px; width: auto; } 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items { display: inline-block; padding: 0 5px; vertical-align: middle; width: 50%; }
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > div { margin: 4px 0; }
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > div.product-title h5 { margin-top: 0; }
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > div:only-child { width: 100%; }
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper > div:only-child { text-align: inherit; width: 100%; }
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper > div:nth-child(1):nth-last-child(2) { text-align: left; }
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper > div:nth-child(2):nth-last-child(1) { text-align: right; }
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline a, 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline a.button,
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline button, 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline button.button, 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline .button { text-align: center; }
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline a, 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline a.button,
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline button, 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline button.button, 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > .wc_btn_inline .button { margin-top: 0; }       
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items:empty, 
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items > div:not(.product-separator):empty { display: none; }
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items:empty ~ .product-element-group-items { text-align: inherit; width: 100%; }
+
+ /* #endregion - Product Content - Element Group */
