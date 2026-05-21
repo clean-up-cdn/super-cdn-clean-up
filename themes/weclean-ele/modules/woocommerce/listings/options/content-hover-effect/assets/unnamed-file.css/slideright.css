@@ -1,0 +1,29 @@
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Content Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-thumb-content { opacity: 0; }
+    .woocommerce ul.products li.product:hover .product-thumb-content { opacity: 1; }
+
+    .woocommerce ul.products.product-content-hover-slideright li.product .product-thumb .product-thumb-content > div { -webkit-transition: -webkit-transform .5s ease, opacity .5s ease; transition: transform .5s ease, opacity .5s ease; }
+
+    .woocommerce ul.products.product-content-hover-slideright li.product .product-thumb .product-thumb-content > div { -webkit-transform: translate(10%, 0); transform: translate(10%, 0); }
+
+    .woocommerce ul.products.product-style-cornered.product-content-hover-slideright li.product .product-thumb .product-thumb-content > div:not(.product-icons) { -webkit-transform: translate(0); transform: translate(0); }
+
+    .woocommerce ul.products.product-style-egrp-over-pc.product-content-hover-slideright li.product .product-details > div.product-element-group-wrapper,
+    .woocommerce ul.products.product-style-igrp-over-pc.product-content-hover-slideright li.product .product-details > div.product-buttons-wrapper.product-icons { -webkit-transform: translate(10%, -50%); -moz-transform: translate(10%, -50%); -o-transform: translate(10%, -50%); transform: translate(10%, -50%); }
+
+
+    .woocommerce ul.products.product-content-hover-slideright li.product:hover .product-thumb .product-thumb-content > div { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+
+    .woocommerce ul.products.product-style-egrp-over-pc[class*="product-content-hover-slide"] li.product:hover .product-details > div.product-element-group-wrapper,
+    .woocommerce ul.products.product-style-igrp-over-pc[class*="product-content-hover-slide"] li.product:hover .product-details > div.product-buttons-wrapper.product-icons { transform: translate3d(0, -50%, 0); -webkit-transform: translate3d(0, -50%, 0); -ms-transform: translate3d(0, -50%, 0); -o-transform: translate3d(0, -50%, 0); }
+
+
+    .woocommerce ul.products.product-content-hover-slideright[class*="position-middle"] li.product .product-thumb .product-thumb-content > div.product-buttons-wrapper.product-icons .wc_inline_buttons { -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+
+/* #endregion - Product Listing - Content Hover Effects */        
