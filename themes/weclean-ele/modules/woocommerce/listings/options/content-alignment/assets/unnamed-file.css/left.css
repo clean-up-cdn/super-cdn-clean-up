@@ -1,0 +1,8 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Content Alignment */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-content-alignment-left li.product .product-details { text-align: left; }
+
+/* #endregion - Product Listing - Content Alignment */    
