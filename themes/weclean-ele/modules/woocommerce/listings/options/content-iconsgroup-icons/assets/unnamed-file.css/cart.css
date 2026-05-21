@@ -1,0 +1,20 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - IconsGroup Button */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.button.product_type_simple:before { content: "\e820"; font-family: 'WeCleanEle Icons';  }
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.button.product_type_variable:before { content: "\f218"; font-family: 'WeCleanEle Icons'; }
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.button.add_to_cart_button.product_type_simple:before { content: "\e843"; font-family: 'WeCleanEle Icons'; }
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.added_to_cart.wc-forward:before { content: "\e843"; font-family: 'WeCleanEle Icons'; z-index: 1; }
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.button.product_type_external:before { content: "\f08e"; font-family: "WeCleanEle Icons"; }
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.button.product_type_grouped:before { content: "\f16b"; font-family: 'WeCleanEle Icons'; }
+
+    .woocommerce ul.products li.product a.add_to_cart_button.added { display: none !important; }
+
+/* #endregion - IconsGroup Button */
