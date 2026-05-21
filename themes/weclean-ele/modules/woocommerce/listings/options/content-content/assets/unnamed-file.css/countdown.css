@@ -1,0 +1,49 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content - CountDown Timer */
+/*--------------------------------------------------------------*/
+
+    .wdt-product-sale-countdown-holder { float: left; width: 100%; }
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount { display: block; margin: 0 -10px; }
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper { display: inline-block; line-height: 24px; min-height: 70px; padding: 10px; position: relative; width: 90px; }
+
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:before,
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:after { content: ""; height: 25px; margin: auto; position: absolute; right: -2px; width: 4px; border-radius: 25px; }
+
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:before { margin-top: -2px; top: 50%; -webkit-transform: translateY(-100%); transform: translateY(-100%); }
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:after { bottom: 50%; -webkit-transform: translateY(100%); transform: translateY(100%); }
+
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper.last:before,
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper.last:after { visibility: hidden; }
+
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .wdt-counter-number { font-size: 28px; font-weight: 600; }
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .title { font-size: 12px; font-weight: normal; letter-spacing: 2px; margin: 10px 0 0; }
+
+
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount { margin: 0; }
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper { margin: 1px; min-height: auto; min-width: 55px; padding: 0; text-align: center; width: auto; -webkit-border-radius: 3px; border-radius: 3px; }
+
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:before,
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:after { content: none; }
+
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .wdt-counter-number { font-size: 20px; padding: 5px; }
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .title { font-size: 11px; letter-spacing: 1px; margin: 0; padding: 3px 5px; -webkit-border-bottom-left-radius: inherit; border-bottom-left-radius: inherit; -webkit-border-bottom-right-radius: inherit; border-bottom-right-radius: inherit; }
+
+
+    /* Colors */
+
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:before,
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper:after { background-color: rgba(var(--wdtHeadAltColorRgb),0.75); }
+
+
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper { background-color: rgba(var(--wdtHeadAltColorRgb),0.15);  }
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .title { background-color: var(--wdtHeadAltColor); }
+
+
+    .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .wdt-counter-number { color: var(--wdtHeadAltColor); }
+
+
+    .woocommerce ul.products li.product .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .title,
+    .woocommerce ul.products.product-background-dark-bgcolor li.product .product-details .wdt-product-sale-countdown-holder .wdt-shop-downcount .wdt-counter-wrapper .wdt-counter-number { color: var(--wdtAccentTxtColor); }
+
+/* #endregion - Product Content - CountDown Timer */
