@@ -1,0 +1,18 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul[class*="product-hover-secimage"] li.product.product-with-secondary-image .product-thumb .image .primary-image,
+    .woocommerce ul[class*="product-hover-secimage"] li.product.product-with-secondary-image .product-thumb .image .secondary-image { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+    /* Secondary Image Hover Effect - Fade
+    ------------------------------------ */
+    .woocommerce ul.products.product-hover-secimage-fade li.product.product-with-secondary-image .product-thumb .image .secondary-image { opacity: 0; }
+    .woocommerce ul.products.product-hover-secimage-fade li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image { opacity: 1; } 
+
+    .woocommerce ul.products.product-hover-thumb-fade-border li.product .product-thumb .image:before,
+    .woocommerce ul.products.product-hover-thumb-fade-skinborder li.product .product-thumb .image:before { border-color: transparent; border-style: solid; border-width: 1px; bottom: 0; left: 0; margin: auto; right: 0; top: 0; z-index: 1; }
+
+/* #endregion - Secondary Image Hover Effects */        	    
