@@ -1,0 +1,17 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - IconsGroup Button */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.add_to_wishlist:before { content: "\e805"; font-family: 'WeCleanEle Icons'; }
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons .yith-wcwl-wishlistaddedbrowse a:before,
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons .yith-wcwl-wishlistexistsbrowse a:before { content: "\e804"; font-family: 'WeCleanEle Icons'; }
+
+
+    .woocommerce ul.products li .yith-wcwl-add-to-wishlist, .woocommerce ul.products li .yith-wcwl-add-to-wishlist .yith-wcwl-add-button { vertical-align: top; }
+
+    .woocommerce ul.products li .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse .feedback, .woocommerce ul.products li .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse .feedback { display: none !important; }
+
+
+/* #endregion - IconsGroup Button */
