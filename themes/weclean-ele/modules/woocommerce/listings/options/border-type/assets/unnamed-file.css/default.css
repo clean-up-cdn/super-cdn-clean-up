@@ -1,0 +1,11 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Border Options */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-without-space.product-border-type-default.product-border-position-default li.product .featured-tag, 
+    .woocommerce ul.products.product-without-space.product-border-type-default.product-border-position-default li.product .featured-tag { left: 1px; top: 1px; }
+
+    /* .woocommerce ul.products.product-border-type-default[class*="product-border-position"][class*="product-bordershadow-highlight"] li.product .product-wrapper { border-color: transparent; } */
+
+/* #endregion - Product Listing - Border Options */
