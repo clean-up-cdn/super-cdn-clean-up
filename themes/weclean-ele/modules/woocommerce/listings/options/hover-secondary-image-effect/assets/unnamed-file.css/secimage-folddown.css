@@ -1,0 +1,69 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+	/* Secondary Image Hover Effect - Fold
+	------------------------------------ */
+	.woocommerce ul[class*="product-hover-secimage-fold"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image,
+	.woocommerce ul[class*="product-hover-secimage-fold"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image img {
+		-webkit-perspective: 50em;
+		perspective: 50em; 
+	}
+	
+	.woocommerce ul[class*="product-hover-secimage-fold"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+	.woocommerce ul[class*="product-hover-secimage-fold"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img {
+		-webkit-transform-origin: 50% 0%;
+		transform-origin: 50% 0%; 
+	}
+	
+	.woocommerce ul[class*="product-hover-secimage-fold"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-fold"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img {
+		opacity: 0; 
+	}
+	
+	.woocommerce ul[class*="product-hover-secimage-fold"].product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .primary-image,
+	.woocommerce ul[class*="product-hover-secimage-fold"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .primary-image img {
+		opacity: 0;
+		-webkit-transition-delay: 0;
+		transition-delay: 0; 
+	}
+	
+	.woocommerce ul[class*="product-hover-secimage-fold"].product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-fold"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image img {
+		opacity: 1;
+		-webkit-transform: rotateX(0) translate3d(0, 0%, 0) scale(1);
+		transform: rotateX(0) translate3d(0, 0%, 0) scale(1);
+		-webkit-transition-delay: 0.21s;
+		transition-delay: 0.21s; 
+	}
+
+	/* Secondary Image Hover Effect - FoldDown
+	---------------------------------------- */
+	.woocommerce ul.products.product-hover-secimage-folddown.product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+	.woocommerce ul.products.product-hover-secimage-folddown:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img {
+		-webkit-transform-origin: 50% 100%;
+		transform-origin: 50% 100%; 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-folddown.product-thumb-bg-image li.product.product-with-secondary-image:not(:hover) .product-thumb .image .secondary-image,
+	.woocommerce ul.products.product-hover-secimage-folddown:not(.product-thumb-bg-image) li.product.product-with-secondary-image:not(:hover) .product-thumb .image .secondary-image img {
+		-webkit-transform: rotateX(90deg) translate3d(0%, 50%, 0) scale(0.6);
+		transform: rotateX(90deg) translate3d(0%, 50%, 0) scale(0.6);
+		-webkit-transform-origin: 50% 0%;
+		transform-origin: 50% 0%; 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-folddown.product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .primary-image,
+	.woocommerce ul.products.product-hover-secimage-folddown:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .primary-image img {
+		-webkit-transform: rotateX(-90deg) scale(0.6) translateY(-50%);
+		transform: rotateX(-90deg) scale(0.6) translateY(-50%); 
+	}
+
+/* #endregion - Secondary Image Hover Effects */        		
