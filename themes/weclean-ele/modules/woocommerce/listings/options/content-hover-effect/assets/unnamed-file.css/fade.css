@@ -1,0 +1,9 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Content Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-thumb-content { opacity: 0; }
+    .woocommerce ul.products li.product:hover .product-thumb-content { opacity: 1; }
+
+/* #endregion - Product Listing - Content Hover Effects */        
