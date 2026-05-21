@@ -1,0 +1,9 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-fadeinleft li.product:not(.product-with-secondary-image) .product-thumb .image .primary-image { left: -0.5rem; width: calc(100% + 1rem); }
+    .woocommerce ul.products.product-hover-image-fadeinleft li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image { left: 0; }
+
+/* #endregion - Product Image Hover Effects */        
