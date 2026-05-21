@@ -1,0 +1,63 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+	.woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+	.woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img,
+	.woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+	/* Secondary Image Hover Effect - ZoomOut*
+	---------------------------------------- */
+	.woocommerce ul[class*="product-hover-secimage-zoomout"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-zoomout"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img {
+		opacity: 0; 
+		-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%;
+	}
+	.woocommerce ul[class*="product-hover-secimage-zoomout"].product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-zoomout"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image img {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition-delay: 0.35s;
+		transition-delay: 0.35s; 
+	}
+
+
+	/* Secondary Image Hover Effect - ZoomOutUp*
+	------------------------------------------ */
+	.woocommerce ul.products.product-hover-secimage-zoomoutup.product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .primary-image,
+	.woocommerce ul.products.product-hover-secimage-zoomoutup:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .primary-image img { -webkit-animation: hvr_zoomout_up 0.4025s linear; animation: hvr_zoomout_up 0.4025s linear; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; -webkit-animation-fill-mode: forwards; animation-fill-mode: forwards; }
+
+	@-webkit-keyframes hvr_zoomout_up {
+		50% {
+			opacity: 0.5; 
+			-webkit-transform: scale(0.8) translateY(0%);
+			transform: scale(0.8) translateY(0%);
+		}
+		100% {
+			opacity: 0.5; 
+			-webkit-transform: scale(0.8) translateY(-100%);
+			transform: scale(0.8) translateY(-100%);
+		} 
+	}
+
+	@keyframes hvr_zoomout_up {
+		50% {
+			opacity: 0.5; 
+			-webkit-transform: scale(0.8) translateY(0%);
+			transform: scale(0.8) translateY(0%);
+		}
+		100% {
+			opacity: 0.5; 
+			-webkit-transform: scale(0.8) translateY(-100%);
+			transform: scale(0.8) translateY(-100%);
+		}
+	}
+
+/* #endregion - Secondary Image Hover Effects */        	
