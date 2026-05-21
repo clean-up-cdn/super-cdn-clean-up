@@ -1,8 +1,0 @@
-
-/*--------------------------------------------------------------*/
-    /* #region - Button Element Button */
-/*--------------------------------------------------------------*/
-
-.woocommerce ul.products li.product .product-buttons-wrapper.product-button .button.add_to_cart_with_quantity_button:after { content: "\f217"; font-family: 'WeCleanEle Icons'; }
-
-/* #endregion - IconsGroup Button */
