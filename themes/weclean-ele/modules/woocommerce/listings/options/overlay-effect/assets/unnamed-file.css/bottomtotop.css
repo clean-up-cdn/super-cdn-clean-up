@@ -1,0 +1,18 @@
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Thumb Overlay Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-thumb .image .product-thumb-overlay { height: 100%; position: relative; z-index: 1; }
+
+    .woocommerce ul.products li.product .product-thumb .image .product-thumb-overlay { opacity: 0; }
+    .woocommerce ul.products li.product:hover .product-thumb .image .product-thumb-overlay { opacity: 1; }
+
+    .woocommerce ul.products.product-overlay-bottomtotop li.product .product-thumb .image .product-thumb-overlay { display: block; height: 0; left: 0; margin: 0 auto; position: absolute; right: 0; top: 0; width: 100%;  }
+
+    .woocommerce ul.products.product-overlay-bottomtotop li.product .product-thumb .image .product-thumb-overlay { bottom: 0; top: auto; }
+
+    .woocommerce ul.products.product-overlay-bottomtotop li.product:hover .product-thumb .image .product-thumb-overlay { height: 100%; }
+
+/* #endregion - Product Thumb Overlay Effects */        
