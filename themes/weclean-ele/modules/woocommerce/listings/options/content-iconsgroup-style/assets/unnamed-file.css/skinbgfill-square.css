@@ -1,0 +1,8 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Content IconsGroup Style */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products[class*="product-content-iconsgroup-style-skinbgfill"] li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons .wc_btn_inline { margin: 2px; }
+
+/* #endregion - Content IconsGroup Style */
