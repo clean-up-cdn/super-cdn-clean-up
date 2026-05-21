@@ -1,0 +1,66 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+	/* Secondary Image Hover Effect - Hinge*
+	-------------------------------------- */
+	.woocommerce ul[class*="product-hover-secimage-hinge"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image,
+	.woocommerce ul[class*="product-hover-secimage-hinge"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image img {
+		-webkit-perspective: 50em;
+		perspective: 50em; 
+	}
+
+	.woocommerce ul[class*="product-hover-secimage-hinge"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-hinge"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img {
+		opacity: 0;
+	}
+
+	.woocommerce ul[class*="product-hover-secimage-hinge"].product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .primary-image,
+	.woocommerce ul[class*="product-hover-secimage-hinge"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .primary-image img {
+		opacity: 0; 
+	}
+
+	.woocommerce ul[class*="product-hover-secimage-hinge"].product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image,
+	.woocommerce ul[class*="product-hover-secimage-hinge"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image img {
+		opacity: 1;
+		-webkit-transition-delay: 0.21s;
+		transition-delay: 0.21s; 
+	}
+
+
+	/* Secondary Image Hover Effect - HingeRight
+	------------------------------------------ */
+	.woocommerce ul.products.product-hover-secimage-hingeright.product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+	.woocommerce ul.products.product-hover-secimage-hingeright:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img {
+		-webkit-transform-origin: 100% 50%;
+		transform-origin: 100% 50%; 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-hingeright.product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+	.woocommerce ul.products.product-hover-secimage-hingeright:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img {
+		-webkit-transform: rotateY(90deg);
+		transform: rotateY(90deg);
+		-webkit-transform-origin: 0 50%;
+		transform-origin: 0 50%; 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-hingeright.product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .primary-image,
+	.woocommerce ul.products.product-hover-secimage-hingeright:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .primary-image img {
+		-webkit-transform: rotateY(-90deg);
+		transform: rotateY(-90deg); 
+	}
+
+	.woocommerce ul.products.product-hover-secimage-hingeright.product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image,
+	.woocommerce ul.products.product-hover-secimage-hingeright:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image img {
+		-webkit-transform: rotateY(0);
+		transform: rotateY(0); 
+	}
+
+/* #endregion - Secondary Image Hover Effects */        		
