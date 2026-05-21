@@ -1,0 +1,38 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Overlay Dark BG-Color */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .product-separator { background-color: rgba(var(--wdtBodyBGColorRgb),0.15); }
+
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .product-element-group-wrapper,
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content select { border-color: rgba(var(--wdtBodyBGColorRgb),0.15); }
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .selection-box:before { border-top-color: rgba(var(--wdtBodyBGColorRgb),0.5); }
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .zoo-cw-group-attribute .zoo-cw-attribute-option .zoo-cw-attr-item { -webkit-box-shadow: 1px 1px 4px 0 rgba(var(--wdtBodyBGColorRgb),0.35); box-shadow: 1px 1px 4px 0 rgba(var(--wdtBodyBGColorRgb),0.35); }
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .zoo-cw-group-attribute .zoo-cw-attribute-option .zoo-cw-attr-item::after { -webkit-box-shadow: 0 0 3px 1px rgba(var(--wdtBodyBGColorRgb),0.5); box-shadow: 0 0 3px 1px rgba(var(--wdtBodyBGColorRgb),0.5); }
+
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content select,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .product-title h5 a:not(:hover),
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .product-category-wrapper a,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .price,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .price del,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .price ins,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .price del .amount,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .price ins .amount,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .wdt-product-sale-countdown-holder .downcount .wdt-counter-wrapper .wdt-counter-number,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .star-rating:before,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .star-rating span:before { color: var(--wdtAccentTxtColor); }
+
+
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .product-title h5 a:hover,
+    .woocommerce ul.products.product-overlay-dark-bgcolor li.product .product-thumb-content .product-category-wrapper a:hover { color: rgba(var(--wdtAccentTxtColorRgb),0.8); }
+
+
+/* #endregion - Overlay Dark BG-Color */
