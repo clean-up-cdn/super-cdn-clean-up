@@ -1,0 +1,166 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - List View */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper {
+        float: none;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+
+        -webkit-box-align: stretch;
+        -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-thumb,
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { float: none; vertical-align: middle; }
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-thumb { width: 33.33%; }
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { padding: 15px 30px; width: 66.66%;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-thumb:only-child,
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details:only-child { width: 100%; }
+
+    .woocommerce ul.products:not(.product-content-alignment-center) li.product.product-list-view .product-wrapper .product-details { text-align: left; }
+
+
+    .woocommerce ul.products li.product.product-list-view .product-buttons-wrapper.product-button { text-align: inherit !important; }
+
+    .woocommerce ul.products li.product.product-list-view .product-buttons-wrapper.product-button a,
+    .woocommerce ul.products li.product.product-list-view .product-buttons-wrapper.product-button a.button,
+    .woocommerce ul.products li.product.product-list-view .product-buttons-wrapper.product-button button,
+    .woocommerce ul.products li.product.product-list-view .product-buttons-wrapper.product-button button.button,
+    .woocommerce ul.products li.product.product-list-view .product-buttons-wrapper.product-button .button { text-align: center !important; }
+
+
+    .woocommerce ul.products.product-content-buttonelement-stretch:not(.product-content-alignment-center) li.product.product-list-view .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline,
+    .woocommerce ul.products.product-content-buttonelement-stretch:not(.product-content-alignment-center) li.product.product-list-view .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline a,
+    .woocommerce ul.products.product-content-buttonelement-stretch:not(.product-content-alignment-center) li.product.product-list-view .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline a.button,
+    .woocommerce ul.products.product-content-buttonelement-stretch:not(.product-content-alignment-center) li.product.product-list-view .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline button,
+    .woocommerce ul.products.product-content-buttonelement-stretch:not(.product-content-alignment-center) li.product.product-list-view .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline button.button,
+    .woocommerce ul.products.product-content-buttonelement-stretch:not(.product-content-alignment-center) li.product.product-list-view .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline .button { width: auto; }
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper[style*="background-color"] { border-width: 0; }
+
+
+    /* Left Thumb */
+    .woocommerce ul.products li.product-list-left-thumb .product-details > div:last-child { margin-bottom: 10px !important; }
+
+
+    /* Right Thumb */
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+        flex-direction: row-reverse;
+    }
+
+    .woocommerce ul.products:not(.product-content-alignment-center) li.product.product-list-view.product-list-right-thumb .product-wrapper .product-details { text-align: right; }
+
+
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-details .product-element-group-wrapper { direction: rtl; }
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-details .product-element-group-wrapper > div { direction: ltr; }
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-details .product-element-group-wrapper > div:nth-child(1):nth-last-child(2) { text-align: right; }
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-details .product-element-group-wrapper > div:nth-child(2):nth-last-child(1) { text-align: left; }
+
+
+/* #endregion - Product Listing - List View */
+
+
+/*--------------------------------------------------------------*/
+/* #region - Responsive */
+/*--------------------------------------------------------------*/
+
+/*----*****---- << Tablet (Landscape) >> ----*****----*/
+
+/* Note: Design for a width of 960px */
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+
+    .woocommerce .page-with-sidebar ul.products li.product.product-list-view .product-wrapper .product-thumb,
+    .page-with-sidebar .woocommerce ul.products li.product.product-list-view .product-wrapper .product-thumb { width: 40% }
+
+    .woocommerce .page-with-sidebar ul.products li.product.product-list-view .product-wrapper .product-details,
+    .page-with-sidebar .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { width: 60% }
+
+}
+
+
+/*----*****---- << Tablet (Portrait) >> ----*****----*/
+
+/* Note: Design for a width of 768px */
+@media only screen and (min-width:768px) and (max-width:1024px) {
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-thumb { width: 40% }
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { width: 60% }
+
+    .woocommerce .page-with-sidebar ul.products li.product.product-list-view .product-wrapper .product-thumb,
+    .page-with-sidebar .woocommerce ul.products li.product.product-list-view .product-wrapper .product-thumb,
+
+    .woocommerce .page-with-sidebar ul.products li.product.product-list-view .product-wrapper .product-details,
+    .page-with-sidebar .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { display: block; width: 100% }
+
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+/* Common Styles for the devices below 767px width */
+@media only screen and (max-width: 767px) {
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper,
+    .woocommerce ul.products li.product.product-list-view.product-list-left-thumb .product-wrapper,
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    }
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-thumb,
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { display: table; width: 100%; }
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { padding: 10px 20px; }
+
+
+    /* Right Thumb */
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-details .product-element-group-wrapper { direction: ltr; }
+
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-details .product-element-group-wrapper > div:nth-child(1):nth-last-child(2) { text-align: left; }
+
+    .woocommerce ul.products li.product.product-list-view.product-list-right-thumb .product-details .product-element-group-wrapper > div:nth-child(2):nth-last-child(1) { text-align: right; }
+
+}
+
+
+/* Common Styles for the devices below 479px width */
+@media only screen and (max-width: 479px) {
+
+    .woocommerce ul.products li.product.product-list-view .product-wrapper .product-details { padding: 10px; }
+
+}
+
+/* #endregion - Responsive */
