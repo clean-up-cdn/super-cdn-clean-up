@@ -1,0 +1,23 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Border Options */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-border-type-default.product-border-position-top li.product .product-wrapper,
+    .woocommerce ul.products.product-border-type-thumb.product-border-position-top li.product .product-thumb { -webkit-box-shadow: 0 -4px 0 0 rgba(var(--wdtHeadAltColorRgb),0.15); box-shadow: 0 -4px 0 0 rgba(var(--wdtHeadAltColorRgb),0.15); }
+
+/* #endregion - Product Listing - Border Options */
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+    /* Primary */
+    .woocommerce ul.products.product-border-type-default.product-border-position-top.product-bordershadow-highlight-default li.product .product-wrapper,
+    .woocommerce ul.products.product-border-type-thumb.product-border-position-top.product-bordershadow-highlight-default li.product .product-thumb,
+
+    .woocommerce ul.products.product-border-type-default.product-border-position-top.product-bordershadow-highlight-onhover li.product:hover .product-wrapper,
+    .woocommerce ul.products.product-border-type-thumb.product-border-position-top.product-bordershadow-highlight-onhover li.product:hover .product-thumb { -webkit-box-shadow: 0 -4px 0 0 var(--wdtPrimaryColor); box-shadow: 0 -4px 0 0 var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
