@@ -1,0 +1,22 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Border/Shadow Highlight */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-border-type-default[class*="product-border-position"][class*="product-bordershadow-highlight-onhover"] li.product:hover .product-wrapper,
+
+    .woocommerce ul.products.product-border-type-thumb[class*="product-border-position"][class*="product-bordershadow-highlight-onhover"] li.product:hover .product-thumb { border-color: transparent; }
+
+ /* #endregion - Border/Shadow Highlight */
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+    /* Primary */
+    .woocommerce ul.products.product-border-type-thumb.product-border-position-default[class*="product-bordershadow-highlight-onhover"] li.product:hover .product-thumb,
+
+    .woocommerce ul.products.product-border-type-default.product-border-position-default[class*="product-bordershadow-highlight-onhover"] li.product:hover .product-wrapper { border-color: var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
