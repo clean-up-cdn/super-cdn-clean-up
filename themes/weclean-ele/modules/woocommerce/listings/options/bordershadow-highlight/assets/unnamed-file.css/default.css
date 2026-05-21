@@ -1,0 +1,11 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+    /* Primary */
+    .woocommerce ul.products.product-border-type-thumb[class*="product-bordershadow-highlight-default"] li.product .product-thumb,
+
+    .woocommerce ul.products.product-border-type-default[class*="product-bordershadow-highlight-default"] li.product .product-wrapper { border-color: var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
