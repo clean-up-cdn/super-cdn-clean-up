@@ -1,0 +1,14 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+	/* Primary */
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a.button,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button.button,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbgfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline .button  { background-color: var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
