@@ -1,0 +1,64 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content IconGroup */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons { position: relative; }
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons { display: inline-block; float: none; width: auto; }
+
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons > .wc_btn_inline,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons > .wc_btn_inline a { -webkit-transition: all 300ms ease 0s; -moz-transition: all 300ms ease 0s; -ms-transition: all 300ms ease 0s; -o-transition: all 300ms ease 0s; transition: all 300ms ease 0s; }
+
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .wc_inline_buttons > .wc_btn_inline { display: inline-block; vertical-align: top; }
+
+
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .button { display: block; font-size: 0; font-weight: normal; height: 40px; line-height: 40px; margin: auto; padding: 0; position: relative; bottom: 0; top: 0; text-align: center; width: 40px; z-index: 2; -webkit-border-radius: 0; border-radius: 0; }
+
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a:before,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a.button:before,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button:before,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button.button:before,
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .button:before { display: block; font-size: 16px; font-weight: normal; height: 100%; line-height: inherit; margin: auto; position: absolute; bottom: 0; left: 0; right: 0; top: 0; text-align: center; width: 100%; }
+
+
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .wcct_btn_wrapper a.add_to_cart_button.loading:before { opacity: 0.25; }
+    .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .wcct_btn_wrapper a.add_to_cart_button.loading:after { margin: auto; position: absolute; bottom: 0; left: 0; right: 0; top: 0; }
+
+
+    /* for Sidebar pages */
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons a,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons button,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons .button,
+
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a.button,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button.button,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .button { height: 35px; line-height: 37px; width: 35px; }
+
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons a:before,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons a.button:before,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons button:before,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons button.button:before,
+    .woocommerce .page-with-sidebar ul.products li.product .product-details .product-buttons-wrapper.product-icons .button:before,
+
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a:before,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons a.button:before,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button:before,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons button.button:before,
+    .page-with-sidebar .woocommerce ul.products li.product .product-details .product-buttons-wrapper.product-icons .button:before { font-size: 14px; }
+
+
+    /* Colors */
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a,
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons button,
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons .button,
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.button { color: var(--wdtAccentTxtColor); }
+
+/* #endregion - Product Content IconGroup */
