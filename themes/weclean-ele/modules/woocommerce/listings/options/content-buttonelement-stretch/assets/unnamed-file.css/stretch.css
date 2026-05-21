@@ -1,0 +1,19 @@
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content - Button Stretch */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button,
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline,
+
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline a,
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline a.button,
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline button,
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline button.button
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline .button, 
+
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline .yith-wcwl-add-to-wishlist,
+    .woocommerce ul.products.product-content-buttonelement-stretch li.product .product-details .product-buttons-wrapper.product-button .wc_inline_buttons .wc_btn_inline .yith-wcwl-add-to-wishlist .yith-wcwl-add-button { max-width: 100%; width: 100%; }
+
+/* #endregion - Product Content - Button Stretch */
