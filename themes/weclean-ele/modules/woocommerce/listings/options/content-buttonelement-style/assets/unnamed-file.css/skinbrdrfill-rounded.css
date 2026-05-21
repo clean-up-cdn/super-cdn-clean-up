@@ -1,0 +1,57 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content Button Element Style */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-content-buttonelement-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline { -webkit-border-radius: 30px; border-radius: 30px; }
+
+
+    .woocommerce ul.products.product-content-buttonelement-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-button a,
+    .woocommerce ul.products.product-content-buttonelement-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-button a.button,
+    .woocommerce ul.products.product-content-buttonelement-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-button button,
+    .woocommerce ul.products.product-content-buttonelement-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-button button.button,
+    .woocommerce ul.products.product-content-buttonelement-style-skinbrdrfill-rounded li.product .product-details .product-buttons-wrapper.product-button .button { padding-left: 30px; padding-right: 30px; }
+
+
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline { background-color: transparent !important; border: 1px solid currentColor; }
+
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a.button:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button.button:hover,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline .button:hover { color: rgba(var(--wdtHeadAltColorRgb),0.75); }
+
+
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a.button,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button.button,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline .button { color: rgba(var(--wdtAccentTxtColorRgb),0.85); }
+
+
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-category-wrapper a:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a.button:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button.button:hover,
+    .woocommerce ul.products.product-background-dark-bgcolor[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline .button:hover { color: rgba(var(--wdtAccentTxtColorRgb),0.8); }
+
+/* #endregion - Product Content Button Element Style */
+
+
+/*--------------------------------------------------------------*/
+    /* #region - Accents */
+/*--------------------------------------------------------------*/
+
+	/* Primary */
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline a.button,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline button.button,
+    .woocommerce ul.products[class*="product-content-buttonelement-style-skinbrdrfill"] li.product .product-details .product-buttons-wrapper.product-button .wc_btn_inline .button  { color: var(--wdtPrimaryColor); }
+
+/* #endregion - Accents */
