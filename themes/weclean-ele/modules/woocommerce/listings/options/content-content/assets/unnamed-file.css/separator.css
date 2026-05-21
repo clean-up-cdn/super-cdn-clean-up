@@ -1,0 +1,14 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Content - Separator */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-details div.product-separator { height: 1px; margin: 5px 0 8px; }
+
+    .woocommerce ul.products li.product .product-details .product-element-group-wrapper .product-element-group-items .product-separator:last-child { display: none; }
+
+
+    .woocommerce ul.products li.product .product-separator { background-color: rgba(var(--wdtHeadAltColorRgb),0.075); }
+
+
+/* #endregion - Product Listing - Content - Separator */
