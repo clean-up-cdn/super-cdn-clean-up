@@ -1,0 +1,23 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Secondary Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .primary-image,
+    .woocommerce ul[class*="product-hover-secimage"].product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .primary-image img,
+    .woocommerce ul[class*="product-hover-secimage"]:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img { -webkit-transition: all 0.35s ease; transition: all 0.35s ease; }
+
+
+    /* Secondary Image Hover Effect - FlipVertical
+    -------------------------------------------- */
+    .woocommerce ul.products.product-hover-secimage-flipvert.product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .primary-image,
+    .woocommerce ul.products.product-hover-secimage-flipvert:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .primary-image img { opacity: 0; -webkit-transform: rotateY(-180deg); transform: rotateY(-180deg); }
+
+    .woocommerce ul.products.product-hover-secimage-flipvert.product-thumb-bg-image li.product.product-with-secondary-image .product-thumb .image .secondary-image,
+    .woocommerce ul.products.product-hover-secimage-flipvert:not(.product-thumb-bg-image) li.product.product-with-secondary-image .product-thumb .image .secondary-image img { opacity: 0; -webkit-transform: rotateY(90deg); transform: rotateY(90deg); -webkit-transform-origin: 50% 0%; transform-origin: 50% 0%; }
+
+    .woocommerce ul.products.product-hover-secimage-flipvert.product-thumb-bg-image li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image,
+    .woocommerce ul.products.product-hover-secimage-flipvert:not(.product-thumb-bg-image) li.product.product-with-secondary-image:hover .product-thumb .image .secondary-image img { opacity: 1; -webkit-transform: rotateY(0deg); transform: rotateY(0deg); -webkit-transition-delay: 0.14s; transition-delay: 0.14s; }
+
+/* #endregion - Secondary Image Hover Effects */        	    
