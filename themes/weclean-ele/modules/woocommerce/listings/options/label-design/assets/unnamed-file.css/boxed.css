@@ -1,0 +1,18 @@
+    
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing Labels */
+/*--------------------------------------------------------------*/    
+    
+    .woocommerce ul.products.product-label-boxed li.product .product-labels { right: 5px; top: 5px; }
+
+    .woocommerce ul.products.product-label-boxed li.product .product-labels > span { display: table; height: 25px; line-height: 24px; margin: 1px; min-height: 25px; min-width: 50px; text-align: center; vertical-align: middle; }
+
+    .woocommerce ul.products.product-label-boxed li.product .product-labels span span { padding: 0 10px; }
+
+    .woocommerce ul.products.product-label-boxed li.product .product-labels > span.out-of-stock { display: block; font-size: 9px; overflow: hidden; width: 50px; }
+
+    .woocommerce ul.products.product-label-boxed li.product .product-labels > span.out-of-stock > span { height: 100%; }
+
+    .woocommerce ul.products.product-label-boxed li.product .product-labels .onsale, .woocommerce ul.products.product-label-boxed li.product .product-labels .out-of-stock { border-radius: 0; }
+
+/* #endregion - Product Listing Labels */    
