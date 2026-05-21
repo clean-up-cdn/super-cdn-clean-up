@@ -1,0 +1,46 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - IconGroup Hover Effects */
+/*--------------------------------------------------------------*/
+
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons a,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons a.button,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons button,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons button.button,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons .button,
+
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons a:before,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons a.button:before,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons button:before,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons button.button:before,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons .button:before,
+
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons a:after,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons a.button:after,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons button:after,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons button.button:after,
+     .woocommerce ul.products[class*="product-icongroup-hover"] li.product .product-thumb .product-buttons-wrapper.product-icons .button:after { -webkit-transform-style: preserve-3d; transform-style: preserve-3d; }
+
+
+     /** Flip Y **/
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product .product-thumb .product-buttons-wrapper.product-icons a,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product .product-thumb .product-buttons-wrapper.product-icons a.button,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product .product-thumb .product-buttons-wrapper.product-icons button,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product .product-thumb .product-buttons-wrapper.product-icons button.button,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product .product-thumb .product-buttons-wrapper.product-icons .button
+     {
+          -webkit-transform: scaleY(0);
+                  transform: scaleY(0); 
+     }
+
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product:hover .product-thumb .product-buttons-wrapper.product-icons a,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product:hover .product-thumb .product-buttons-wrapper.product-icons a.button,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product:hover .product-thumb .product-buttons-wrapper.product-icons button,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product:hover .product-thumb .product-buttons-wrapper.product-icons button.button,
+     .woocommerce ul.products.product-icongroup-hover-flipy li.product:hover .product-thumb .product-buttons-wrapper.product-icons .button
+     {
+          -webkit-transform: scaleY(1);
+                  transform: scaleY(1); 
+     }
+
+/* #endregion - Product Listing - IconGroup Hover Effects */        
