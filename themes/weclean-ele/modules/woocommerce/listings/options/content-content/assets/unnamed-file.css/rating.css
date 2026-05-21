@@ -1,0 +1,10 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Content - Rating */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-details .product-rating-wrapper { display: inline-block; -webkit-transition: all 300ms linear 0s; transition: all 300ms linear 0s; }
+    
+    .woocommerce ul.products li.product .product-details .product-rating-wrapper .star-rating { display: inline-block; margin: 5px 0; vertical-align: middle; }
+
+/* #endregion - Product Content - Rating */
