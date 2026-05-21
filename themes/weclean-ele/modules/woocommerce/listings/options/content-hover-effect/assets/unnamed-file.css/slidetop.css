@@ -1,0 +1,26 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Content Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .product-thumb-content { opacity: 0; }
+    .woocommerce ul.products li.product:hover .product-thumb-content { opacity: 1; }
+
+    .woocommerce ul.products.product-content-hover-slidetop li.product .product-thumb .product-thumb-content > div { -webkit-transition: -webkit-transform .5s ease, opacity .5s ease; transition: transform .5s ease, opacity .5s ease; }
+
+    .woocommerce ul.products.product-content-hover-slidetop li.product .product-thumb-content > div { -webkit-transform: translate(0, -10px); transform: translate(0, -10px); }
+
+
+    .woocommerce ul.products.product-style-egrp-over-pc.product-content-hover-slidetop li.product .product-details > div.product-element-group-wrapper,
+    .woocommerce ul.products.product-style-igrp-over-pc.product-content-hover-slidetop li.product .product-details > div.product-buttons-wrapper.product-icons { -webkit-transform: translate(0, -100%); transform: translate(0, -100%); }
+
+    .woocommerce ul.products.product-content-hover-slidetop li.product:hover .product-thumb .product-thumb-content > div { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+
+
+    .woocommerce ul.products.product-style-egrp-over-pc[class*="product-content-hover-slide"] li.product:hover .product-details > div.product-element-group-wrapper,
+    .woocommerce ul.products.product-style-igrp-over-pc[class*="product-content-hover-slide"] li.product:hover .product-details > div.product-buttons-wrapper.product-icons { transform: translate3d(0, -50%, 0); -webkit-transform: translate3d(0, -50%, 0); -ms-transform: translate3d(0, -50%, 0); -o-transform: translate3d(0, -50%, 0); }
+
+
+    .woocommerce ul.products.product-content-hover-slidetop[class*="position-middle"] li.product .product-thumb .product-thumb-content > div.product-buttons-wrapper.product-icons .wc_inline_buttons { -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+
+/* #endregion - Product Listing - Content Hover Effects */    
