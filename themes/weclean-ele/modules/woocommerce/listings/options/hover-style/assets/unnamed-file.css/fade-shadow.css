@@ -1,0 +1,15 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Listing - Hover Styles */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-fade-shadow li.product .product-wrapper:before { bottom: 0; left: 0; margin: auto; right: 0; top: 0; z-index: 100; }
+
+    .woocommerce ul.products.product-hover-fade-shadow li.product:hover .product-wrapper:before { -webkit-box-shadow: 0 0 20px 5px rgba(var(--wdtHeadAltColorRgb),0.3); box-shadow: 0 0 20px 5px rgba(var(--wdtHeadAltColorRgb),0.3); }
+
+    .woocommerce ul.products.product-hover-fade-shadow.product-padding-default li.product .product-wrapper .product-details { padding: 0 15px; }
+
+    .woocommerce ul.products.product-hover-fade-shadow.swiper-wrapper { margin-top: 25px; margin-bottom: 25px; }
+
+
+/* #endregion - Product Listing - Hover Styles */
