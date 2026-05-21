@@ -1,0 +1,11 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - IconsGroup Button */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products li.product .wc_compare_btn_wrapper { margin: 0 auto; position: absolute; bottom: 0; left: 0; right: 0; }
+    .woocommerce ul.products li.product .wc_compare_btn_wrapper a { padding-top: 6px; padding-bottom: 6px; border-radius: 0; }
+
+    .woocommerce ul.products li.product .product-buttons-wrapper.product-icons a.yith-woocompare-button:before { content: "\e866"; font-family: 'WeCleanEle Icons'; }
+
+/* #endregion - IconsGroup Button */
