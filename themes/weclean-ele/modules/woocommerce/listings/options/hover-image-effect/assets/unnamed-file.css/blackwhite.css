@@ -1,0 +1,9 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-blackwhite.product-thumb-bg-image li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image,
+    .woocommerce ul.products.product-hover-image-blackwhite:not(.product-thumb-bg-image) li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image img { -webkit-filter: grayscale(1); filter: grayscale(1); }
+
+/* #endregion - Product Image Hover Effects */        
