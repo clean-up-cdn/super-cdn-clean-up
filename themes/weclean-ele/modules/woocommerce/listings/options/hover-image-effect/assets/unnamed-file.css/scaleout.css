@@ -1,0 +1,14 @@
+
+/*--------------------------------------------------------------*/
+    /* #region - Product Image Hover Effects */
+/*--------------------------------------------------------------*/
+
+    .woocommerce ul.products.product-hover-image-scaleout li.product:not(.product-with-secondary-image) .product-thumb .image { perspective: 50em; }
+
+    .woocommerce ul.products.product-hover-image-scaleout.product-thumb-bg-image li.product:not(.product-with-secondary-image) .product-thumb .image .primary-image,
+    .woocommerce ul.products.product-hover-image-scaleout:not(.product-thumb-bg-image) li.product:not(.product-with-secondary-image) .product-thumb .image .primary-image img { -webkit-transform: scale3d(1.1,1.1,1.1); transform: scale3d(1.1,1.1,1.1); }
+
+    .woocommerce ul.products.product-hover-image-scaleout.product-thumb-bg-image li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image,
+    .woocommerce ul.products.product-hover-image-scaleout:not(.product-thumb-bg-image) li.product:not(.product-with-secondary-image):hover .product-thumb .image .primary-image img { -webkit-transform: scale3d(1,1,1); transform: scale3d(1,1,1); }
+
+/* #endregion - Product Image Hover Effects */    
